@@ -3,8 +3,8 @@
 
 ## [HTML]  
 HTML é o rascunho da coisa toda.  
-  É uma linguagem de marcação que **marca** e organiza a estrutura da página, como se fosse um esqueleto com os dados de texto mais básicos.  
-  Ele define onde cada coisa vai ficar e em que ordem será lida — títulos, textos, imagens… tudo começa aqui.  
+É uma linguagem de marcação que **marca** e organiza a estrutura da página, como se fosse um esqueleto com os dados de texto mais básicos.  
+Ele define onde cada coisa vai ficar e a ordem que tudo será lido — títulos, textos, imagens, listas…  
 
 
 ## [CSS]  
