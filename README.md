@@ -31,44 +31,24 @@ Coisas importantes:
 ## [JavaScript]
 
 JavaScript é o que dá vida à página.
-Sem ele, o site é parado. Com ele, o site reage ao que o usuário faz.
+Sem ele, o site só tem visual, praticamente não funciona e não reage ao usuário.
 
-Por exemplo: quando você clica em um botão e algo acontece, quando um formulário avisa que está errado, ou quando uma página atualiza sem recarregar — tudo isso geralmente envolve JavaScript.
+Por exemplo: quando você clica em um botão e algo acontece, quando um formulário avisa que está errado, ou quando uma página atualiza sem recarregar, tudo isso geralmente envolve JavaScript.
+É tipo o cérebro da coisa
 
-Se for comparar:
+Ele funciona lidando com eventos funções, manipulando os dados e o que está na tela.
 
-* HTML → corpo
-* CSS → aparência
-* JavaScript → cérebro
-
-Ele funciona lidando com ações (eventos) e manipulando o que está na tela.
-
-Algumas ideias importantes:
-
-* **variável** → uma caixinha que guarda um valor
-* **função** → um bloco de código que executa uma tarefa
-* **objeto** → um conjunto de dados e comportamentos
-* **classe** → um molde pra criar objetos
-
-Também vale conhecer:
-
-* **DOM** → é como o JavaScript “enxerga” o HTML
-* **Eventos** → coisas que acontecem (clique, digitação…)
-* **Assíncrono** → quando algo demora (tipo buscar dados da internet)
+As funções e a parte da programação em si estão explicadas no tópico de TypeScript
 
 ---
 
 ## [JavaScript X TypeScript X Java]
 
-Apesar dos nomes parecidos, essas coisas não são iguais.
-
 JavaScript e TypeScript são usados principalmente na web. Já Java é outra linguagem, usada em sistemas maiores, back-end e aplicativos.
 
-Ou seja:
-
-* JavaScript → web
-* TypeScript → JavaScript melhorado
-* Java → outra parada
+* JavaScript →  web
+* TypeScript → JavaScript "melhorado"
+* Java → outra linguagem nada a ver 
 
 ---
 
