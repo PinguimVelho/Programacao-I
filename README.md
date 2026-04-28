@@ -90,11 +90,18 @@ class Pessoa {
 Um objeto é um conjunto de propriedades (nomes e valores) usado para guardar dados e funções relacionadas em uma única estrutura.
 Geralmente ele pertence a uma classe, onde ele se aplica a aquele molde.
 
+Como criar um objeto de uma classe:
+
+```ts
+const pessoaUm = new Pessoa("Pedro", 27, 67302948208)
+```
+
 - **Atributos VS Variáveis:**
   .Variável: Uma célula que armazena um único valor de um único tipo
   .Atributo: Semelhante a variável, porém pertencente a um objeto. É como se fosse uma característica
 
   Variáveis podem ser declaradas de 3 formas: `let`, `const` e `var`.
+  
   ```ts
   let A = 1
   const B = 2
@@ -111,6 +118,7 @@ Segue a mesma linha dos atributos e variáveis.
 É a função que recebe os parâmetros na criação de um objeto e dá esses valores aos atributos.
 
 Detalhe: O constructor fica dentro da classe.
+
 ```ts
 constructor(pNome: string, pIdade: number, pCPF: number) {
         this.nome = pNome
