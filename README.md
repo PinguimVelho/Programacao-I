@@ -98,7 +98,7 @@ const pessoaUm = new Pessoa("Pedro", 27, 67302948208)
 #### - Construtores:
 É a função que recebe os parâmetros na criação de um objeto e dá esses valores aos atributos.
 
-Detalhe: O constructor fica dentro da classe.
+>Detalhe: O constructor fica dentro da classe.
 
 ```ts
 constructor(pNome: string, pIdade: number, pCPF: number) {
