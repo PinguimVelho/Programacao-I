@@ -10,7 +10,7 @@ HTML é o rascunho da coisa toda.
 Ele define onde cada coisa vai ficar e a ordem que tudo será lido — títulos, textos, imagens, listas… Sem HTML, basicamente não existe página, só um monte de nada.
 
 * Ele usa **tags** (tipo `<p>`, `<h1>`, `<img>`) pra marcar o que cada coisa é
-* 
+  
 ---
 
 ## [CSS]
