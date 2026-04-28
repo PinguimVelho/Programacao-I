@@ -85,7 +85,7 @@ class Pessoa {
 }
 ```
 
----
+<br>
 
 - **Objetos:**
 Um objeto é um conjunto de propriedades (nomes e valores) usado para guardar dados e funções relacionadas em uma única estrutura.
@@ -97,7 +97,7 @@ Como criar um objeto de uma classe:
 const pessoaUm = new Pessoa("Pedro", 27, 67302948208)
 ```
 
----
+<br>
 
 - **Construtores:**
 É a função que recebe os parâmetros na criação de um objeto e dá esses valores aos atributos.
@@ -112,7 +112,7 @@ constructor(pNome: string, pIdade: number, pCPF: number) {
     }
 ```
 
----
+<br>
 
 - **Atributos VS Variáveis:**
 .Variável: Uma célula que armazena um único valor de um único tipo
@@ -126,19 +126,19 @@ const B = 2
 var C = 3 // Não é mais comumente usado
 ```
 
----
+<br>
 
 - **Métodos VS Funções:**
 Segue a mesma linha dos atributos e variáveis.
 .Função: Uma sequência de ações separadas do código que só são executadas se forem chamadas
 .Método: Uma função pertencente a uma classe, ou seja, só pode ser chamada a partir de um objeto específico 
 
----
+<br>
 
 - **Getters e Setters:**
 São métodos especiais para acessar e modificar atributos em métodos de uma forma mais limpa, permitindo chamar um método como se fosse um atributo.
 
----
+<br>
 
 - **Encapsulamento:**
 É usado para evitar que certos atributos sejam chamados ou modificados onde não deveriam.
@@ -146,15 +146,15 @@ public: É o padrão, onde o atributo pode ser acessado em qualquer lugar.
 private: Permite que o atributo seja acessado somente na própria classe.
 protected: Parecido com o private, porém o atributo pode ser acessado por subclasses.
 
----
+<br>
 
 - **Herança:**
 Herança é pelo fato da subclasse possuir os mesmos atributos que a sua classe principal.
 
----
+<br>
 
 - **this e super:**
 this é usado dentro da classe para se referir ao atributo específico do objeto a qual está sendo referido.
 super é usado para chamar funções da classe pai, geralmente usado para chamar o contructor.
 
----
+<br>
