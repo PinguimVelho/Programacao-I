@@ -10,24 +10,21 @@ HTML é o rascunho da coisa toda.
 Ele define onde cada coisa vai ficar e a ordem que tudo será lido — títulos, textos, imagens, listas… Sem HTML, basicamente não existe página, só um monte de nada.
 
 * Ele usa **tags** (tipo `<p>`, `<h1>`, `<img>`) pra marcar o que cada coisa é
-* Se deve usar tags com mais significado (semântico), como `<strong>` ao invés de `<b>`
+* Se deve usar tags com mais significado (semântico), como `<strong>` ao invés de `<b>` se não seremos humilhados pelo professor.
   
 ---
 
 ## [CSS]
 
 CSS é a parte estética.
-Ele não cria conteúdo, só pega o que o HTML já montou e deixa visualmente agradável.
-
-Se o HTML é a casa pronta, o CSS é a pintura, os móveis e a decoração. É ele que define cores, tamanhos, espaçamentos e até onde cada coisa fica na tela.
+Ele não cria conteúdo, só pega o que o HTML já montou e deixa visualmente legal.
 
 Além de deixar bonito, o CSS também ajuda muito na organização visual. Hoje em dia, ele é essencial pra fazer sites funcionarem bem em celular, tablet e computador.
 
-Alguns pontos importantes:
+Coisas importantes:
 
-* Você pode estilizar vários elementos de uma vez
-* Dá pra criar layouts modernos com **Flexbox** e **Grid**
-* Responsividade é fundamental (site que funciona em qualquer tela)
+* Content (Height e Width), Padding, Border, Margin
+* Flexbox e Grid
 
 ---
 
