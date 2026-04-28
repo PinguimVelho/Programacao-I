@@ -58,14 +58,21 @@ TypeScript é como se fosse um JavaScript só que mais organizado.
 
 Ele adiciona regras ao código, principalmente dizendo qual tipo de dado você está usando (texto, número, etc.). Isso ajuda a evitar erros antes mesmo do código rodar.
 
-No fim das contas, o TypeScript vira JavaScript, mas durante o desenvolvimento ele ajuda bastante a manter tudo sob controle — principalmente em projetos maiores.
+No fim das contas, o TypeScript vira JavaScript, mas durante o desenvolvimento ele ajuda bastante a manter tudo sob controle (principalmente em projetos maiores e se você for meio perdido).
 
 Exemplo:
+
+```js
+let nome = "Francisco";
+let idade = 16;
+```
 
 ```ts
 let nome: string = "Francisco";
 let idade: number = 16;
 ```
+
+Principais Conceitos:
 
 - Classes: 
 É como um molde (com atributos, métodos...) usado para criar objetos.
