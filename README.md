@@ -94,10 +94,8 @@ Geralmente ele pertence a uma classe, onde ele se aplica a aquele molde.
   .Variável: Uma célula que armazena um único valor de um único tipo
   .Atributo: Semelhante a variável, porém pertencente a um objeto. É como se fosse uma característica
 
-  Variáveis podem ser declaradas de 3 formas:
-
-  `let`, `const` e `var`
-  ```
+  Variáveis podem ser declaradas de 3 formas: `let`, `const` e `var`.
+  ```ts
   let A = 1
   const B = 2
   var C = 3 // Não é mais comumente usado
