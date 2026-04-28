@@ -84,7 +84,7 @@ class Pessoa {
     CPF: number
 }
 ```
-
+___
 - **Objetos:**
 Um objeto é um conjunto de propriedades (nomes e valores) usado para guardar dados e funções relacionadas em uma única estrutura.
 Geralmente ele pertence a uma classe, onde ele se aplica a aquele molde.
