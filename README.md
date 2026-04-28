@@ -91,15 +91,35 @@ Um objeto é um conjunto de propriedades (nomes e valores) usado para guardar da
 Geralmente ele pertence a uma classe, onde ele se aplica a aquele molde.
 
 - **Atributos VS Variáveis:**
-  .Variável: É uma célula que armazena um único valor de um único tipo
-  .Atributo: É semelhante a variável, porém pertencente a um objeto. É como se fosse uma característica. 
+  .Variável: Uma célula que armazena um único valor de um único tipo
+  .Atributo: Semelhante a variável, porém pertencente a um objeto. É como se fosse uma característica
+
+  Variáveis podem ser declaradas de 3 formas:
+
+  `let`, `const` e `var`
+  ```
+  let A = 1
+  const B = 2
+  var C = 3 // Não é mais comumente usado
+  ```
 
 
 - **Métodos VS Funções:**
-Segue a mesma linha dos atributos e variáveis. O método é uma função que só pode ser chamada por um objeto daquela classe que possui o determinado método. Já a função é simplesmente uma sequência de comandos que pode ser chamada a qualquer momento.
+Segue a mesma linha dos atributos e variáveis.
+  .Função: Uma sequência de ações separadas do código que só são executadas se forem chamadas
+  .Método: Uma função pertencente a uma classe, ou seja, só pode ser chamada a partir de um objeto específico 
 
 - **Construtores:**
 É a função que recebe os parâmetros na criação de um objeto e dá esses valores aos atributos.
+
+Detalhe: O constructor fica dentro da classe.
+```ts
+constructor(pNome: string, pIdade: number, pCPF: number) {
+        this.nome = pNome
+        this.idade = pIdade
+        this.CPF = pCPF
+    }
+```
 
 - **Getters e Setters:**
 São métodos especiais para acessar e modificar atributos em métodos de uma forma mais limpa, permitindo chamar um método como se fosse um atributo.
