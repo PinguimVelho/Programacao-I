@@ -82,7 +82,6 @@ class Pessoa {
     nome: string
     idade: number
     CPF: number
-    ...
 }
 ```
 
@@ -96,24 +95,6 @@ Como criar um objeto de uma classe:
 const pessoaUm = new Pessoa("Pedro", 27, 67302948208)
 ```
 
-- **Atributos VS Variáveis:**
-  .Variável: Uma célula que armazena um único valor de um único tipo
-  .Atributo: Semelhante a variável, porém pertencente a um objeto. É como se fosse uma característica
-
-  Variáveis podem ser declaradas de 3 formas: `let`, `const` e `var`.
-  
-  ```ts
-  let A = 1
-  const B = 2
-  var C = 3 // Não é mais comumente usado
-  ```
-
-
-- **Métodos VS Funções:**
-Segue a mesma linha dos atributos e variáveis.
-  .Função: Uma sequência de ações separadas do código que só são executadas se forem chamadas
-  .Método: Uma função pertencente a uma classe, ou seja, só pode ser chamada a partir de um objeto específico 
-
 - **Construtores:**
 É a função que recebe os parâmetros na criação de um objeto e dá esses valores aos atributos.
 
@@ -126,6 +107,25 @@ constructor(pNome: string, pIdade: number, pCPF: number) {
         this.CPF = pCPF
     }
 ```
+
+- **Atributos VS Variáveis:**
+.Variável: Uma célula que armazena um único valor de um único tipo
+.Atributo: Semelhante a variável, porém pertencente a um objeto. É como se fosse uma característica
+
+Variáveis podem ser declaradas de 3 formas: `let`, `const` e `var`.
+  
+```ts
+let A = 1
+const B = 2
+var C = 3 // Não é mais comumente usado
+```
+
+
+- **Métodos VS Funções:**
+Segue a mesma linha dos atributos e variáveis.
+.Função: Uma sequência de ações separadas do código que só são executadas se forem chamadas
+.Método: Uma função pertencente a uma classe, ou seja, só pode ser chamada a partir de um objeto específico 
+
 
 - **Getters e Setters:**
 São métodos especiais para acessar e modificar atributos em métodos de uma forma mais limpa, permitindo chamar um método como se fosse um atributo.
