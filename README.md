@@ -9,15 +9,8 @@ HTML é o rascunho da coisa toda.
 
 Ele define onde cada coisa vai ficar e a ordem que tudo será lido — títulos, textos, imagens, listas… Sem HTML, basicamente não existe página, só um monte de nada.
 
-Pra visualizar melhor, pensa que o HTML monta a estrutura de uma casa: ele coloca as paredes, portas e janelas. Ainda não é bonito, mas já dá pra entender o espaço.
-
-Algumas ideias importantes:
-
 * Ele usa **tags** (tipo `<p>`, `<h1>`, `<img>`) pra marcar o que cada coisa é
-* Cada tag tem um significado (título, parágrafo, imagem…)
-* Existe uma estrutura base que toda página segue
-* Tags mais “certas” (semânticas) ajudam até o Google a entender o site
-
+* 
 ---
 
 ## [CSS]
