@@ -72,7 +72,7 @@ let nome: string = "Francisco";
 let idade: number = 16;
 ```
 
-Principais Conceitos:
+**Principais Conceitos:**
 
 - Classes: 
 É como um molde (com atributos, métodos...) usado para criar objetos.
