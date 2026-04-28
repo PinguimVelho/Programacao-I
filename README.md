@@ -84,7 +84,9 @@ class Pessoa {
     CPF: number
 }
 ```
-___
+
+---
+
 - **Objetos:**
 Um objeto é um conjunto de propriedades (nomes e valores) usado para guardar dados e funções relacionadas em uma única estrutura.
 Geralmente ele pertence a uma classe, onde ele se aplica a aquele molde.
@@ -94,6 +96,8 @@ Como criar um objeto de uma classe:
 ```ts
 const pessoaUm = new Pessoa("Pedro", 27, 67302948208)
 ```
+
+---
 
 - **Construtores:**
 É a função que recebe os parâmetros na criação de um objeto e dá esses valores aos atributos.
@@ -108,6 +112,8 @@ constructor(pNome: string, pIdade: number, pCPF: number) {
     }
 ```
 
+---
+
 - **Atributos VS Variáveis:**
 .Variável: Uma célula que armazena um único valor de um único tipo
 .Atributo: Semelhante a variável, porém pertencente a um objeto. É como se fosse uma característica
@@ -120,15 +126,19 @@ const B = 2
 var C = 3 // Não é mais comumente usado
 ```
 
+---
 
 - **Métodos VS Funções:**
 Segue a mesma linha dos atributos e variáveis.
 .Função: Uma sequência de ações separadas do código que só são executadas se forem chamadas
 .Método: Uma função pertencente a uma classe, ou seja, só pode ser chamada a partir de um objeto específico 
 
+---
 
 - **Getters e Setters:**
 São métodos especiais para acessar e modificar atributos em métodos de uma forma mais limpa, permitindo chamar um método como se fosse um atributo.
+
+---
 
 - **Encapsulamento:**
 É usado para evitar que certos atributos sejam chamados ou modificados onde não deveriam.
@@ -136,8 +146,12 @@ public: É o padrão, onde o atributo pode ser acessado em qualquer lugar.
 private: Permite que o atributo seja acessado somente na própria classe.
 protected: Parecido com o private, porém o atributo pode ser acessado por subclasses.
 
+---
+
 - **Herança:**
 Herança é pelo fato da subclasse possuir os mesmos atributos que a sua classe principal.
+
+---
 
 - **this e super:**
 this é usado dentro da classe para se referir ao atributo específico do objeto a qual está sendo referido.
