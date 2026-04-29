@@ -1,0 +1,13 @@
+Link para o trabalho do RPG em TypeScript: https://github.com/A-Karamazov/RPG_Project
+
+Coloquei o link errado no forms...
+
+
+Grupo:
+- Davi Guntert Stringari (Scrum Master)
+- Francisco Geissmann Dall'Asta
+- Erick Matheus Festa
+- Kauan Lucca Ruthes Nascimento
+- Gabriel Bueno Sturmer
+- Igor Borges de Lima
+- Victor Eduardo da Rosa Schneider

@@ -1,126 +1,89 @@
-body > * {
-      border: 2px solid green;
-    }
+html {
+  background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p1/32434243-natureza-madagascar-floresta-tropical-unico-ai-gerado-foto.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
 
-    * {
-      box-sizing: border-box;
-    }
+body>* {
+  border: 5px solid #5A3E2B;
+}
 
-    :root {
-      --grid-info-size: 250px;
-    }
+* {
+  box-sizing: border-box;
+}
 
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-    }
+body {
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 0;
+  margin-bottom: 0;
 
-    body {
-      display: grid;
-      grid-template-areas:
-        "social info content"
-        "footer footer footer";
-      grid-template-columns: fit-content var(--grid-info-size) 1fr;
-      grid-template-rows: 1fr 50px;
-      gap: .5rem;
-      padding: .5rem;
-      min-height: 100svh;
-    }
+  display: grid;
+  grid-template-areas:
+    "info content";
 
-    aside {
-      
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    
-      grid-area: info;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto;
+  gap: .2rem;
+  padding: .5rem;
+  min-height: 100svh;
+}
 
-      .thumb {
-        width: calc(var(--grid-info-size) - 20px);
-        height: calc(var(--grid-info-size) - 20px);
-        background-color: lightgray;
-        border-radius: 50%;
-        flex: none;
-        z-index: 2;
-        overflow: clip;
+aside {grid-area: info; }
 
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: clip;
-        }
-      }
-    }
-      section {
-        background-color: rgb(151, 77, 16);
-        width: 100%;
-        height: 100%;
-        margin-top: -5rem;
-        padding-top: 5rem;
-        z-index: 1;
-        clip-path: polygon(0 20px, 100% 10px, 100% 100%, 0 100%);
-      }
-    
+aside .thumb {
+  width: calc(var(--grid-info-size) - 20px);
+  height: calc(var(--grid-info-size) - 20px);
+  background-color: lightgray;
+  border-radius: 50%;
+  flex: none;
+  z-index: 2;
+  overflow: clip;
+}
 
-    main {
-      grid-area: content;
-      position: relative;
-      isolation: isolate;
-      padding: 2rem;
+aside .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* já aproveitei e corrigi aqui */
+}
 
-      &:before {
-        content: "";
-        background-color: rgb(151, 77, 12);
-        position: absolute;
-        inset: 0;
-        z-index: -1;
-        clip-path: polygon(0 calc(var(--grid-info-size) - 5.3rem),
-        0 100%, 
-        100% 100%, 
-        100% calc(var(--grid-info-size) - 8rem));
-      }
+section {
+  background-color: #1F3D2B;
+  width: 100%;
+  
+  margin-top: -5rem;
+  padding-top: 5rem;
+  z-index: 1;
+}
 
-      h1 {
-        color: orange;
-      }
+main {
+  grid-area: content;
+  position: relative;
+  isolation: isolate;
+  padding: 2rem;
+}
 
-      h1:hover {
-        color: aquamarine;
-      }
+main::before {
+  content: "";
+  background-color: #1F3D2B;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
 
-      .gallery {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        grid-auto-rows: minmax(100px, 230px);
-        gap: .5rem;
-        
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-        :first-child {
-          grid-column: 1 / span 3;
-          grid-row: span 2;
-        }
-      }
-    } 
+main h1 {
+  color: orange;
+}
 
-    .social {
-      grid-area: social;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      align-items: center;
+main .gallery {
+  background-color: #F3E7D3;
+  width: 100%;
+  min-height: 300px;
+  min-height: 300px
+}
 
-      img {
-        width: 1.5rem;
-        height: 1.5rem;
-        object-fit: cover;
-      };
-    }
-
-    footer {
-      grid-area: footer;
-    }
+:root {
+  --grid-info-size: 250px;
+}
