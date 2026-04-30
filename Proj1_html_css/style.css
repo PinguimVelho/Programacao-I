@@ -1,89 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p1/32434243-natureza-madagascar-floresta-tropical-unico-ai-gerado-foto.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
-}
-
-body>* {
-  border: 5px solid #5A3E2B;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 body {
-  margin-left: 6%;
-  margin-right: 6%;
-  margin-top: 0;
-  margin-bottom: 0;
+  font-family: 'Fredoka', sans-serif;
+  margin: 0 7%;
+  padding: 20px;
 
   display: grid;
   grid-template-areas:
     "info content";
 
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: auto;
   gap: .2rem;
-  padding: .5rem;
+
   min-height: 100svh;
 }
 
-aside {grid-area: info; }
+body>* {
+  border: 7px solid #5A3E2B;
+  border-radius: 30px;
+}
 
-aside .thumb {
-  width: calc(var(--grid-info-size) - 20px);
-  height: calc(var(--grid-info-size) - 20px);
+
+/* /////////////////////////////////// */
+
+
+aside {
+  grid-area: info;
+  position: relative;
+
+  background-color: #1F3D2B;
+  width: 100%;
+  min-height: 300px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tituloPg {
+  background-color: #5A3E2B;
+  padding: 0 40px;
+  margin-bottom: 10px;
+
+  clip-path: polygon(0% 0%,
+      100% 0%,
+      95% 50%,
+      100% 100%,
+      0% 100%,
+      5% 50%);
+}
+
+aside h1 {
+  color: #F3E7D3;
+}
+
+.thumb {
+  width: 260px;
+  height: 260px;
   background-color: lightgray;
   border-radius: 50%;
+  border: 6px solid #A8794E;
   flex: none;
-  z-index: 2;
   overflow: clip;
 }
 
-aside .thumb img {
+.thumb img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* já aproveitei e corrigi aqui */
+  object-fit: cover;
 }
 
-section {
-  background-color: #1F3D2B;
-  width: 100%;
-  
-  margin-top: -5rem;
-  padding-top: 5rem;
-  z-index: 1;
+.nomePing {
+  background-color: #7A5538;
+  padding: 5px 40px;
 }
+
+aside h2 {
+  color: #F3E7D3;
+  margin: 0;
+}
+
+aside h3 {
+  color: #F3E7D3;
+  margin: 0;
+}
+
+aside p {
+  color: #F3E7D3;
+  margin: 10px;
+}
+
+aside hr {
+  border: 2px solid #2F5A3F;
+  width: 90%;
+}
+
+.social img {
+  width: 50px;
+  height: 50px;
+}
+
+
+/* /////////////////////////////////// */
+
 
 main {
-  grid-area: content;
-  position: relative;
-  isolation: isolate;
-  padding: 2rem;
-}
-
-main::before {
-  content: "";
   background-color: #1F3D2B;
-  position: absolute;
-  inset: 0;
-  z-index: -1;
+  grid-area: content;
+  padding: 2rem;
 }
 
 main h1 {
   color: orange;
+  margin-top: 0;
 }
 
-main .gallery {
+article {
   background-color: #F3E7D3;
+  border-radius: 20px;
   width: 100%;
-  min-height: 300px;
-  min-height: 300px
+  min-height: 100%;
+  padding: 30px 40px;
 }
 
-:root {
-  --grid-info-size: 250px;
+
+/* GALERIAAA /////////////////////////////////// */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+figure {
+  margin: 10px;
 }
