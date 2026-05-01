@@ -1,0 +1,8 @@
+Sendo sincero, eu não tinha nenhuma dúvida. As que eu tenho eu tiro em sala.
+Ou seja, tive que inventar pergunta pra colocar aqui 👍
+
+1 - Se cada objeto é independente, como funciona quando eu preciso que vários objetos compartilhem ou sincronizem dados entre si?
+2 - Usar getters e setters não acaba sendo só uma “camada a mais” sem ganho real em casos simples?
+3 - Existe algum sinal claro de que eu estou exagerando na POO e poderia ter resolvido com algo mais simples?
+4 - Quando eu uso herança, eu fico muito preso à classe pai? Tipo, isso pode dificultar mudanças no futuro?
+5 - Se classes são só “modelos”, onde exatamente elas existem em tempo de execução — elas viram objetos também ou não?
